@@ -1,0 +1,42 @@
+.global-style {
+  background: linear-gradient(to bottom, #004e92, #ffffff);
+  color: #cde7f0;
+  font-family: 'Arial', sans-serif;
+  animation: wave-animation 6s ease-in-out infinite;
+}
+
+@keyframes wave-animation {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.neon-text {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0ff;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  body {
+    font-size: 14px;
+  }
+}
