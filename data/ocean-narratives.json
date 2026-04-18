@@ -1,0 +1,23 @@
+[  
+    {
+        "template": "Every purchase contributes to the health of our oceans. When you bought {product}, you supported efforts to protect marine life by funding {specific_action}. This action helps to ensure that our oceans remain vibrant and full of life.",
+        "context": { 
+            "product": "plastic-free straws", 
+            "specific_action": "cleaning up beaches and teaching children about marine conservation" 
+        }
+    },
+    {
+        "template": "Thanks to your purchase of {product}, we are able to {specific_action}. Each step we take is a step towards a healthier ocean. Your commitment makes a difference.",
+        "context": { 
+            "product": "biodegradable bags", 
+            "specific_action": "support local community initiatives focusing on ocean preservation" 
+        }
+    },
+    {
+        "template": "With your purchase of {product}, you are helping us {specific_action}. Together, we can restore the beauty of our oceans and protect marine ecosystems.",
+        "context": { 
+            "product": "ocean-friendly products", 
+            "specific_action": "create artificial reefs that foster marine biodiversity" 
+        }
+    }
+]
