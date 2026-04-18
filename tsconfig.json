@@ -1,0 +1,1 @@
+{\n  "compilerOptions": {\n    "target": "es5",\n    "module": "commonjs",\n    "strict": true,\n    "baseUrl": ".",\n    "paths": {\n      "@components/*": ["src/components/*"],\n      "@utils/*": ["src/utils/*"],\n      "@hooks/*": ["src/hooks/*"]\n    }\n  },\n  "include": [\n    "src/**/*"\n  ]\n}
