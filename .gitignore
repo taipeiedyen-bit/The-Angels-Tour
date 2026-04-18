@@ -1,0 +1,16 @@
+# Node.js
+
+# Dependency directories
+node_modules/
+yarn-error.log
+
+# Build artifacts
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
